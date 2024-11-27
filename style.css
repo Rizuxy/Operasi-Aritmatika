@@ -1,0 +1,90 @@
+html {
+    text-align: center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVNdjH3xgdi-qrDKTaZ2t1ho1S_50ABMAD01dWTLD9FY1RiegbzVFBzrM&s=10');
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    margin-top: 3.5rem;
+    text-shadow: #FC0 1px 0 10px;
+    padding: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+}
+
+.calt {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 20px 0 50px 0;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    margin-top: 3rem;
+    width: 90%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.calt form label {
+    font-weight: 550;
+    letter-spacing: 1.2;
+}
+
+.calt form label input {
+    width: 60%;
+    border: none;
+    padding: 20px 0;
+    background-color: beige;
+    border-radius: 5px;
+    margin: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn {
+    border: none;
+    border-radius: 7px;
+    padding: 10px 15px;
+    background-color: beige;
+    color: green;
+    margin: 0 1px;
+    box-shadow: rgba(0, 255, 0, 0.6) 0 6px 0.8px;
+    font-weight: 650;
+}
+
+.btn:active {
+    box-shadow: rgba(0, 255, 0, 0.6) 0 3px 0.8px;
+    transform: translateY(3px);
+}
+
+@media (min-width:768px) {
+    h1 {
+        margin-top: 3.5rem;
+        padding: 4rem;
+        width: 60%;
+        font-size: 4rem;
+        margin: 2rem auto 0 auto;
+    }
+
+    .calt form label {
+        font-weight: 650;
+        letter-spacing: 1.2;
+        font-size: 1.5rem;
+    }
+
+    .calt form label input {
+        padding: 35px 0;
+        border-radius: 10px;
+    }
+
+    .btn {
+        border-radius: 10px;
+        padding: 20px 25px;
+        font-size: 15px;
+        font-weight: 650;
+        margin: 0 5px;
+    }
+}
